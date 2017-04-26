@@ -36,13 +36,12 @@ public class Clase2Java
     
   public static void main (String[] args)    
     {
+        Clase2Java Aprendiz1 = new  Clase2Java();
+        Aprendiz1.setDirection("cll 103 #73-56");
+        Aprendiz1.setPet("Toby");
+        System.out.println("Su mascota se llama: " + Aprendiz1.getPet());
+        System.out.println("La direccion de su vivienda es: " + Aprendiz1.getDirection() );
        
-        
-        
-        
-        
-        
     }
    
-
 }
